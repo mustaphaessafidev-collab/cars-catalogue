@@ -1,11 +1,7 @@
-import './App.css'
-import MyApp from './pages/VehicleCatalogPage'
-
-
 function App() {
   return (
-    <div className="app-root">
-      <MyApp />
+    <div className="min-h-screen bg-blue-600 text-white flex items-center justify-center text-4xl font-bold">
+      Tailwind Works
     </div>
   )
 }
