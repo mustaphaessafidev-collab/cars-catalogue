@@ -1,10 +1,11 @@
 import './App.css'
-import VehicleCatalogPage from './pages/VehicleCatalogPage'
+import MyApp from './pages/VehicleCatalogPage'
+
 
 function App() {
   return (
     <div className="app-root">
-      <VehicleCatalogPage />
+      <MyApp />
     </div>
   )
 }
