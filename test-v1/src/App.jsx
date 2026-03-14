@@ -1,7 +1,14 @@
-import './App.css'
-import Cars from './components/Care';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import VehicleCatalogPage from "./pages/VehicleCatalogPage";
+
+
 export default function App() {
   return (
-    <Cars/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/VehicleCatalogPage" element={<VehicleCatalogPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
